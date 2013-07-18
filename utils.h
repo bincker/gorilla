@@ -9,7 +9,8 @@
 #ifndef UTILS_H
 #define UTILS_H
 
+void print_status(std::string);
 std::string f_to_string(float);
-std::string jpopen(std::string, bool);
+std::string jpopen(std::string, int);
 
 #endif
